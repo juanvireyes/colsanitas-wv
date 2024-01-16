@@ -1,0 +1,35 @@
+.bodyModal {
+  width: 100%;
+}
+
+.modalHeader {
+  width: 100%;
+  text-align: center;
+}
+
+.modalHeader figure {
+  width: 100%;
+  text-align: right;
+}
+
+.close-permission span {
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.acceptButton {
+  background-color: var(--keralty-secondary-blue);
+}
+
+.acceptButton:hover {
+  transition: 400ms;
+  background-color: var(--keralty-main-blue);
+}
+
+.acceptButton:not(:hover) {
+  transition: 400ms;
+  background-color: var(--keralty-secondary-blue);
+}

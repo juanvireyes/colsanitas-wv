@@ -1,0 +1,9 @@
+.main-title {
+    font-family: var(--keralty-proxima-nova-main-font);
+    color: var(--keralty-green);
+    font-size: var(--keralty-large-font);
+    font-weight: 700;
+    text-align: center;
+    font-style: normal;
+    line-height: 45px;
+}

@@ -1,0 +1,44 @@
+.btn-container {
+    width: 100%;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    margin-top: 18px;
+    margin-bottom: 32px;
+  }
+
+.primary-button {
+   background-color: var(--keralty-green);
+   color: var(--keralty-neutral-gray0);
+   font-weight: 600;
+   padding: 12px 30px;
+   font-size: 1.6rem;
+   display: flex;
+   gap: 10px;
+   border: none;
+   border-radius: 22px;
+   width: auto;
+   cursor: pointer;
+}
+.primary-button:disabled {
+    background-color: var(--keralty-gray200);
+    color: var(--keralty-gray700);
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.48px;
+    cursor: default;
+}
+
+.blue-primary-btn {
+  background-color: var(--keralty-secondary-blue);
+  color: var(--keralty-neutral-gray0);
+  font-weight: 600;
+  padding: 12px 30px;
+  font-size: 1.6rem;
+  display: flex;
+  gap: 10px;
+  border: none;
+  border-radius: 22px;
+  width: auto;
+  cursor: pointer;
+}

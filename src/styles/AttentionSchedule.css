@@ -1,0 +1,47 @@
+.schedule-container {
+    background-color: var(--keralty-softgreen);
+    width: 100%;
+    padding: 6px;
+    margin: 18px 0;
+}
+
+/* Estilos para cuando este componente se encuentra dentro del formulario de ingreso */
+.div-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.schedule-icon {
+    padding: 2px;
+}
+
+.schedule-title {
+    color: var(--keralty-green);
+    font-weight: 700;
+    font-size: var(--keralty-small-font);
+    font-style: normal;
+    line-height: 1.9rem;
+}
+
+.schedule-info {
+    font-size: var(--keralty-small-font);
+    font-weight: 400;
+    font-style: normal;
+    line-height: 19px;
+    margin-left: 39px;
+}
+
+/* Estilos para cuando este componente se encuentra en la pantalla de fuera de horario */
+.out-of-time-icon-cont {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.out-of-time-icon {
+    margin: 0 auto;
+}
+
+.out-of-time-title, .out-of-time-paragraph {
+    text-align: center;
+}

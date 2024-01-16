@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+}
+
+.logo-cont {
+  position: absolute;
+  width: 250px;
+  padding: 15px;
+}
+
+.logo-colsanitas {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.main-image {
+  width: 50%;
+  /* height: 100vh; */
+  object-fit: cover;
+}
+
+.form-container,
+.ot-cont {
+  width: 100%;
+  height: 100%;
+}
+
+/*/Diseño de dispositivos del ancho hasta 850px (propuesta de tablet)*/
+@media (min-width: 451px) and (max-width: 1366px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-image {
+    width: 100%;
+    height: 300px;
+    object-position: 0px -150px;
+  }
+
+  .logo-cont {
+    left: 5%;
+  }
+}
+
+/* Diseño principal para dispositivos móviles (máximo 450px de ancho) */
+@media (max-width: 450px) {
+  .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .logo-cont {
+    display: flex;
+    position: relative;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    right: 0;
+  }
+
+  /* .logo-colsanitas {
+    object-fit: none;
+  } */
+
+  .main-image {
+    display: none;
+  }
+}

@@ -1,0 +1,86 @@
+.contact-type-base-modal {
+  background: #fff;
+  padding: 10px 40px 40px 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  place-items: center;
+}
+
+.modal-close-icon {
+  display: grid;
+  text-align: end;
+  width: 100%;
+  padding-top: 16px;
+}
+
+.modal-close-icon svg {
+  cursor: pointer;
+}
+
+.contact-type-h3 {
+  color: var(--keralty-main-blue);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 31px;
+}
+
+.select-contact-type-modal-p {
+  color: var(--keralty-gray900);
+  line-height: 22px;
+}
+.select-contact-type-modal-p span {
+  font-weight: 700;
+}
+
+.colsanitas-contact-type-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.colsanitas-contact-type-form div {
+  padding: 5px 0px 5px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.radius-cont label {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+#colsanitas-radio-btn {
+  width: 24px;
+  height: 24px;
+}
+
+.colsanitas-radio-btn-label {
+  color: var(--keralty-gray900);
+}
+
+.colsanitas-btn-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.colsanitas-submit {
+  background-color: var(--keralty-secondary-blue);
+  color: var(--keralty-neutral-gray0);
+  font-weight: 600;
+  padding: 12px 30px;
+  font-size: 1.6rem;
+  display: flex;
+  gap: 10px;
+  border: none;
+  border-radius: 22px;
+  width: auto;
+  cursor: pointer;
+}

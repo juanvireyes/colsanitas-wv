@@ -1,0 +1,13 @@
+.link-button {
+  background-color: var(--keralty-secondary-blue);
+  color: var(--keralty-neutral-gray0);
+  font-weight: 600;
+  padding: 12px 30px;
+  font-size: 1.6rem;
+  display: flex;
+  gap: 10px;
+  border: none;
+  border-radius: 22px;
+  width: auto;
+  cursor: pointer;
+}
