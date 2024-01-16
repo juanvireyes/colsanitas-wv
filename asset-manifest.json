@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/colsanitas-wv/static/css/main.8f296d31.css",
-    "main.js": "/colsanitas-wv/static/js/main.253070d6.js",
+    "main.js": "/colsanitas-wv/static/js/main.0c8b83f7.js",
     "static/media/main-img.jpg": "/colsanitas-wv/static/media/main-img.401a8a43ff2a54bce915.jpg",
     "static/media/Proxima_Nova_Extrabold.otf": "/colsanitas-wv/static/media/Proxima_Nova_Extrabold.53156c585a42e6a1382d.otf",
     "static/media/Proxima_Nova_Regular.otf": "/colsanitas-wv/static/media/Proxima_Nova_Regular.ea03f826587148b7335d.otf",
@@ -15,10 +15,10 @@
     "static/media/info-circle.svg": "/colsanitas-wv/static/media/info-circle.fcc5316194e135f4680275a0e76b7bc2.svg",
     "static/media/circle-exclamation.svg": "/colsanitas-wv/static/media/circle-exclamation.0055c540b8a28a81c1f9ef73b560a8ae.svg",
     "main.8f296d31.css.map": "/colsanitas-wv/static/css/main.8f296d31.css.map",
-    "main.253070d6.js.map": "/colsanitas-wv/static/js/main.253070d6.js.map"
+    "main.0c8b83f7.js.map": "/colsanitas-wv/static/js/main.0c8b83f7.js.map"
   },
   "entrypoints": [
     "static/css/main.8f296d31.css",
-    "static/js/main.253070d6.js"
+    "static/js/main.0c8b83f7.js"
   ]
 }
